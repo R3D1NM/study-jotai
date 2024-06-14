@@ -3,6 +3,7 @@ import './App.css';
 import ThemeSwitcher from "./components/ThemeSwitcher";
 import Uppercase from "./components/Uppercase";
 import Dots from "./components/Dots";
+import AtomCreator from "./components/AtomCreator";
 
 function App() {
   return (
@@ -17,8 +18,10 @@ function App() {
         <ThemeSwitcher /> */}
         {/* <h2 className="text-2xl">3. Uppercase</h2>
         <Uppercase />         */}
-        <h2 className="text-2xl">3. Dots</h2>
-        <Dots />
+        {/* <h2 className="text-2xl">4. Dots</h2>
+        <Dots />         */}
+        <h2 className="text-2xl">5. Atom Creator</h2>
+        <AtomCreator />
       </div>
     </div>
   );
