@@ -1,6 +1,7 @@
 import Counter from "./components/Counter";
 import './App.css';
 import ThemeSwitcher from "./components/ThemeSwitcher";
+import Uppercase from "./components/Uppercase";
 
 function App() {
   return (
@@ -11,8 +12,10 @@ function App() {
       <div className="w-[80vw] flex justify-center flex-col align-middle text-center">
         {/* <h2 className="text-2xl">1. Counter</h2>
         <Counter /> */}
-        <h2 className="text-2xl">2. Theme Switcher</h2>
-        <ThemeSwitcher />
+        {/* <h2 className="text-2xl">2. Theme Switcher</h2>
+        <ThemeSwitcher /> */}
+        <h2 className="text-2xl">3. Uppercase</h2>
+        <Uppercase />
       </div>
     </div>
   );
