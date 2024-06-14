@@ -2,6 +2,7 @@ import Counter from "./components/Counter";
 import './App.css';
 import ThemeSwitcher from "./components/ThemeSwitcher";
 import Uppercase from "./components/Uppercase";
+import Dots from "./components/Dots";
 
 function App() {
   return (
@@ -14,8 +15,10 @@ function App() {
         <Counter /> */}
         {/* <h2 className="text-2xl">2. Theme Switcher</h2>
         <ThemeSwitcher /> */}
-        <h2 className="text-2xl">3. Uppercase</h2>
-        <Uppercase />
+        {/* <h2 className="text-2xl">3. Uppercase</h2>
+        <Uppercase />         */}
+        <h2 className="text-2xl">3. Dots</h2>
+        <Dots />
       </div>
     </div>
   );
